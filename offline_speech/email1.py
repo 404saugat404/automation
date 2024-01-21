@@ -4,7 +4,7 @@ from email.message import EmailMessage
 from vosk import Model, KaldiRecognizer
 import pyaudio
 
-model_path = '/home/saugat/Desktop/mj1/vosk-model-small-en-in-0.4'
+model_path = '/vosk-model-small-en-in-0.4'
 model = Model(model_path)
 recognizer = KaldiRecognizer(model, 16000)
 mic = pyaudio.PyAudio()
