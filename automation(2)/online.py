@@ -3,7 +3,7 @@ import requests
 import json
 import speech_recognition as sr
 from email.message import EmailMessage
-import pywhatkit
+import pywhatkit as p
 from googlesearch import search
 
 listener = sr.Recognizer()
@@ -11,7 +11,7 @@ listener = sr.Recognizer()
 dict={
 'saugat':'saugat@gmail.com',
 'neema':'neema@gmail.com',
-'shashin':'shashin@gmail.com',
+'sachin':'shashin@gmail.com',
 'sabal':'maharjan@gmail.com'
 }
 
